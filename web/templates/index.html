@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <meta http-equiv='cache-control' content="no-cache, must-revalidate, post-check=0, pre-check=0">
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <meta http-equiv="cache-control" content="max-age=0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./static/css/styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"></script>
+
+    <script src="../static/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../static/js/AppleGame.js" type="text/javascript" charset="utf-8"></script>
+    <meta charset="utf-8"/>
+    <title>打苹果游戏</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/AppleGame.css"/>
+    <script src="../static/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../static/js/AppleGame.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
+<!--    <div class="container px-5">-->
+<!--        <div class="navbar-brand" href="#!">神奇的汉字<br/>-->
+<!--            <p class="navbar-text"-->
+<!--               style="color:white;font-size:10px;position:relative;left:10px;top:-10px">好好学习，天天向上</p></div>-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"-->
+<!--                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span-->
+<!--                class="navbar-toggler-icon"></span></button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+<!-- Header-->
+<header class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+<div class="dbg">
+                        <div id="bg">
+                        </div>
+                        <div class="anniu">
+                            <div class="start" onclick="start()"></div>
+                            <div class="stop" onclick="over()"></div>
+                            <div class="pause" onclick="pause()"></div>
+                            <div class="shezhi" onclick="shezhi()"></div>
+                            <div class="exit" onclick="location='Back'"></div>
+                        </div>
+                        <div class="score">
+                            <li>当前难度：<span id="nandu">1</span></li>
+                            <li>正确数：<span id="right_score">0</span></li>
+                            <li>失误数：<span id="false_score">0</span></li>
+                            <li>正确率：<span id="right_parsent">0</span>%</li>
+                        </div>
+                        <div class="lanzi">
+                            <!--<img src="../img/lanzi.png"/>-->
+                        </div>
+                        <div class="small_apple">
+                            <img src="../static/img/apple2.png" id="smallapple1"/>
+                            <img src="../static/img/apple2.png" id="smallapple2"/>
+                            <img src="../static/img/apple2.png" id="smallapple3"/>
+                            <img src="../static/img/apple2.png" id="smallapple4"/>
+                            <img src="../static/img/apple2.png" id="smallapple5"/>
+                            <img src="../static/img/apple2.png" id="smallapple6"/>
+                        </div>
+                        <div id="shezhi_jiemian">
+                            <input value="1" size="2" style="top: 81px;" id="LVnum"/>
+                            <input value="50" size="2" style="top: 131px;" id="passNum"/>
+                            <input value="50" size="2" style="top: 180px;" id="nopassNum"/>
+                            <div id="shezhi_queding" style="left: 184px;" onclick="queding()"></div>
+                            <div id="shezhi_quxiao" style="left: 276px;" onclick="quxiao()"></div>
+                            <div id="shezhi_moren" style="left: 368px;" onclick="moren()"></div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</header>
+
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; 2021.6 SJS LJR JZH. All Rights
+        Reserved.</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<!--<script src="startbootstrap-business-frontpage-master/dist/js/scripts.js"></script>-->
+
+
+</body>
+
+</html>
+

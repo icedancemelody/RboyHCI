@@ -1,0 +1,180 @@
+.dbg {
+	position: relative;
+	height: 600px;
+	width: 800px;
+	background-image: url(../img/bg.png);
+	background-repeat: none;
+}
+
+.anniu {
+	height: 130px;
+	width: 260px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.score {
+	height: 130px;
+	width: 160px;
+	position: absolute;
+	left: 270px;
+	bottom: 0px;
+}
+
+.lanzi {
+	position: absolute;
+	right: 100px;
+	bottom: 50px;
+	height: 135px;
+	width: 180px;
+	z-index: 600;
+}
+
+.small_apple {
+	position: absolute;
+	right: 100px;
+	bottom: 50px;
+	height: 135px;
+	width: 180px;
+	background-image: url(../img/lanzi.png);
+}
+
+.small_apple img {
+	position: absolute;
+	display: none;
+}
+
+#smallapple6,
+#smallapple5,
+#smallapple4 {
+	bottom: 40px;
+}
+
+#smallapple6 {
+	left: 40px;
+}
+
+#smallapple5 {
+	left: 70px;
+}
+
+#smallapple4 {
+	left: 100px;
+}
+
+#smallapple3,
+#smallapple2 {
+	bottom: 70px;
+}
+
+#smallapple3 {
+	left: 80px;
+}
+
+#smallapple2 {
+	left: 50px;
+}
+
+#smallapple1 {
+	left: 60px;
+}
+
+.start {
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: 15px;
+	top: 53px;
+}
+.stop {
+	border-radius: 50px;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	right: 55px;
+	top: 8px;
+}
+.pause,.shezhi
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+.pause {
+	position: absolute;
+	right: 104px;
+	top: 41px;
+}
+
+.shezhi {
+	position: absolute;
+	right: 71px;
+	top: 80px;
+}
+
+.exit {
+	height: 22px;
+	width: 70px;
+	position: absolute;
+	right: 157px;
+	top: 80px;
+}
+
+.score li {
+	list-style-type: none;
+	font-size: 18px;
+	line-height: 18px;
+	height: 25px;
+	margin: 2px;
+	color: white;
+}
+
+#bg {
+	margin: 0px auto;
+	width: 770px;
+	height: 465px;
+	position: relative;
+}
+
+#bg .apple {
+	background-image: url(../img/apple.png);
+	height: 71px;
+	width: 63px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	line-height: 71px;
+	position: absolute;
+}
+
+#bg .badapple {
+	background-image: url(../img/poapple.png);
+	width: 138px;
+	height: 76px;
+	position: absolute;
+}
+
+#shezhi_jiemian {
+	background-image: url(../img/sz.png);
+	height: 311px;
+	width: 448px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 700;
+	display: none;
+}
+
+#shezhi_jiemian input {
+	position: absolute;
+	left: 220px;
+}
+
+#shezhi_jiemian div {
+	position: absolute;
+	bottom: 20px;
+	width: 70px;
+	height: 30px;
+}
